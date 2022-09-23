@@ -1,15 +1,17 @@
-# Basic Sample Hardhat Project
+# Wave Portal
+## Wave Portal Backend on Web3
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project uses Hardhat to deploy and test web3 smart contracts on solidity. The smart contract provides functions to wave and unwave with a message. To deploy we need to create an env file with all details for deployment.
 
-Try running some of the following tasks:
+To get hardhat commands
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
 npx hardhat help
 ```
+
+## Front-end
+
+The Front-end application has been deployed on Replit.com
+
+[Wave Portal App](https://waveportal-starter-project.antarikshray.repl.co/)
+
